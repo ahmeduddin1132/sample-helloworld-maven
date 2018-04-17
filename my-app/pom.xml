@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Ahmed.local-releases</name>
+        <url>http://localhost:8081/artifactory/admin</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Ahmed.local-snapshots</name>
+        <url>http://localhost:8081/artifactory/admin</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
